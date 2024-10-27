@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customize Appearance</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Customize Appearance</h1>
+        <div class="options">
+            <label for="background-color">Background Color</label>
+            <input type="color" id="background-color">
+            
+            <label for="font-size">Font Size</label>
+            <input type="range" id="font-size" min="12" max="48" value="16">
+
+            <label for="font-family">Font</label>
+            <select id="font-family">
+                <option value="Arial">Arial</option>
+                <option value="Times New Roman">Times New Roman</option>
+                <option value="Courier New">Courier New</option>
+            </select>
+
+            <label for="dark-mode">Dark Mode</label>
+            <input type="checkbox" id="dark-mode">
+        </div>
+
+        <button id="apply-btn">Apply Changes</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
